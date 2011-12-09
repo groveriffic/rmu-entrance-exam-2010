@@ -1,4 +1,3 @@
-require "lib/ali_rizvi_fixed"
 
 start_time = Time.now
 

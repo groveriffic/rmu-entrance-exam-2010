@@ -3,9 +3,6 @@ require "rubygems"
 
 # gem install contest or github.com/citrusbyte/contest
 require "contest"
-$LOAD_PATH.unshift("#{File.dirname(__FILE__)}/../lib")
-
-require "ali_rizvi_fixed"
 
 class DocumentTest < Test::Unit::TestCase
 
