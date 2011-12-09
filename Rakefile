@@ -4,6 +4,13 @@ namespace :test do
 
   desc 'Unit and Memory test my code'
   task :mine => ['unit:mine', 'memory:mine']
+
+  desc 'Unit and Memory test Original TextEditor::Document'
+  task :ali_rizvi => ['unit:ali_rizvi', 'memory:ali_rizvi']
+
+  desc 'Unit and Memory test Original Fixed TextEditor::Document'
+  task :ali_rizvi_fixed => ['unit:ali_rizvi_fixed', 'memory:ali_rizvi_fixed']
+
   namespace :memory do 
 
     desc 'Memory Test my new TextEditor::Document'
