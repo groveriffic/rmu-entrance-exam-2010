@@ -82,6 +82,6 @@ I can however take credit for a further > 50% reduction in memory footprint.
 
 These are some things I would consider for an actual project
 
- * Enfoce a maximum limit on the @commands an @reverted arrays
+ * Enforce a maximum limit on the @commands an @reverted arrays
  * Serialize the commands to a TempFile on disk
- * Memoize the contents method (being sure to eraze the memoized copy when actions are preformed)
+ * Memoize the contents method (being sure to erase the memoized copy when actions are preformed)
